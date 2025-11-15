@@ -9,7 +9,7 @@ if len(sys.argv) == 2:
     print("User provided input:")
 else:
     print("No command-line input provided. Using manual input:")
-    text = input("Enter a string: ")  # Manual input when no argument is passed
+    text = "19764"
 
 # Check palindrome
 if text == text[::-1]:
